@@ -1,0 +1,48 @@
+doctype html
+html(lang="en")
+    head
+        title= `${h.siteName} || ${title}`
+        link(rel="stylesheet", href="/dist/style.css")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    body
+        .inner 
+            .nav_bar 
+                li.nav_item.logo: a.nav__link(href="/")
+                    != h.icon('plant')
+                    span Codie Stover
+                li.nav_item: a.nav__link(href="/resume")
+                    != h.icon('file')
+                    span Resume
+                li.nav_item: a.nav__link(href="/projects")
+                    != h.icon('folder')
+                    span Projects
+                li.nav_item: a.nav__link(href="https://github.com/codiemaureen")
+                    != h.icon('github')
+                    span Github
+                li.nav_item: a.nav__link(href="https://www.linkedin.com/in/codiemaureen/")
+                    != h.icon('LinkedIn')
+                    span LinkedIn
+        .div 
+            .header
+                p Welcome to my portfolio
+
+                .projects 
+                    .project
+                        .project__header
+                            h2 Here are a few of my projects
+                            .project__image 
+                                p images go here
+                    .project
+                        .project__header
+                            h2 Here are a few of my projects
+                            .project__image 
+                                p images go here
+
+
+        .links 
+            .icon: a.icon__link(href="https://www.linkedin.com/in/codiemaureen/")
+                != h.icon('linkedIn')
+            .icon: a.icon__link(href="https://www.github.com/codiemaureen/")
+                != h.icon('github')
+            .icon: a.icon__link(href="/resume")
+                != h.icon('file')
