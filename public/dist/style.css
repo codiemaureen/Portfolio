@@ -54,7 +54,10 @@ svg:hover {
   color: white;
   transform: scale(1.2);
 }
-
+svg:not(:root) {
+  overflow: hidden;
+  fill: white;
+}
 .div {
   display: flex;
   justify-content: center;
