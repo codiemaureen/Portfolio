@@ -11,7 +11,7 @@ html(lang="en")
         .nav_bar 
             li.nav_item.logo: a.nav__link(href="/")
                 //- != h.icon('plant')
-                span.contact codiestover.cs@gmail.com
+                span.contact Codiestover.cs@gmail.com
                 br
                 span.contact 586-864-3218   
             li.nav_item: a.nav__link(href="/resume")
@@ -26,22 +26,9 @@ html(lang="en")
             li.nav_item: a.nav__link(href="https://www.linkedin.com/in/codiemaureen/")
                 != h.icon('LinkedIn')
                 span LinkedIn
-        .div 
-            .header
-                p Welcome to my portfolio
-
-                .projects 
-                    .project
-                        .project__header
-                            h2 Here are a few of my projects
-                            .project__image 
-                                p images go here
-                    .project
-                        .project__header
-                            h2 Here are a few of my projects
-                            .project__image 
-                                p images go here
-
+                
+        .content
+            block content
 
         .links 
             .icon: a.icon__link(href="https://www.linkedin.com/in/codiemaureen/")
