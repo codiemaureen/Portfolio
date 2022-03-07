@@ -21,7 +21,7 @@ body {
 .nav_bar {
   display: flex;
   list-style: none;
-  justify-content: end;
+  justify-content: flex-end;
   background-color: #241e19; }
 
 .nav_item {
@@ -35,7 +35,7 @@ body {
 
 .logo {
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   max-width: 300px;
   /* font-size: 35px; */
   color: white; }
@@ -68,6 +68,14 @@ svg:hover {
 svg:not(:root) {
   overflow: hidden;
   fill: white; }
+
+.div {
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  margin: 10px;
+  background-color: white;
+  border: 10px solid #241e19; }
 
 .div {
   display: flex;
