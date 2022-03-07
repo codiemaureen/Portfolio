@@ -1,6 +1,9 @@
 extends layout 
 
+include mixins/_projects
+
 block content 
     h2 Resume and Certifications 
-    .container 
-    .container 
+    .container
+    +projects()
+

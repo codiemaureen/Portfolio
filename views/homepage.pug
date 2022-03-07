@@ -1,18 +1,9 @@
 extends layout 
 
+include mixins/_projects
+
 block content 
         .div 
             .header
                 p Welcome to my portfolio
-
-                .projects 
-                    .project
-                        .project__header
-                            h2 Here are a few of my projects
-                        .project__image 
-                            p images go here
-                    .project
-                        .project__header
-                            h2 Here are a few of my projects
-                        .project__image 
-                            p images go here
+                +project()
