@@ -1,0 +1,78 @@
+body {
+  background: #8ba792;
+  font-size: 36px;
+  margin: 0;
+}
+
+.wrapper {
+  font-size: 50px;
+  text-shadow: 2px 3px #2c3022d7;
+  color: white;
+  text-align: center;
+  height: 50vh;
+  background: url("../images/pexels-eberhard-grossgasteiger-629162.jpg") center
+    center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav_bar {
+  display: flex;
+  list-style: none;
+  justify-content: end;
+  background-color: #241e19;
+}
+
+.nav_item {
+  display: flex;
+  flex: 1 1 auto;
+  font-size: 25px;
+  padding: 15px;
+  border: 2px solid grey;
+  justify-content: right;
+  max-width: 100px;
+}
+
+.logo {
+  display: flex;
+  align-items: start;
+  max-width: 300px;
+  /* font-size: 35px; */
+  color: white;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+svg {
+  width: 25px;
+  height: 25px;
+  padding-right: 10px;
+  justify-content: center;
+  justify-items: center;
+}
+svg:hover {
+  color: white;
+  transform: scale(1.2);
+}
+svg:not(:root) {
+  overflow: hidden;
+  fill: white;
+}
