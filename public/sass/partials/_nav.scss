@@ -27,19 +27,18 @@ body {
 
 .nav_item {
   display: flex;
-  flex: 1 1 auto;
+  flex: auto;
   font-size: 25px;
-  padding: 15px;
-  border: 2px solid grey;
-  justify-content: right;
-  max-width: 100px;
+  border: 2px solid #181410;
+  border-radius: 5%;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo {
   display: flex;
-  align-items: flex-start;
-  max-width: 300px;
-  /* font-size: 35px; */
+  justify-content: flex-start;
+  flex: auto 4;
   color: white;
 }
 
@@ -75,12 +74,4 @@ svg:hover {
 svg:not(:root) {
   overflow: hidden;
   fill: white;
-}
-.div {
-  display: flex;
-  justify-content: center;
-  justify-self: center;
-  margin: 10px;
-  background-color: white;
-  border: 10px solid #241e19;
 }
