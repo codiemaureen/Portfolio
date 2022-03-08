@@ -78,6 +78,7 @@ svg:not(:root) {
 
 p {
   display: flex;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.1);
   justify-content: center;
   justify-self: center; }
 
@@ -92,14 +93,13 @@ p {
   display: flex;
   justify-content: center;
   justify-self: center;
-  border: 10px solid black;
-  margin: 80px; }
+  margin: auto;
+  max-width: 70vw; }
 
 img {
   display: flex;
   width: 100%;
-  justify-content: center;
-  justify-self: center; }
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.1); }
 
 .projects {
   display: flex;

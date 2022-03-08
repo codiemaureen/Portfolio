@@ -2,13 +2,12 @@
   display: flex;
   justify-content: center;
   justify-self: center;
-  border: 10px solid black;
-  margin: 80px;
+  margin: auto;
+  max-width: 70vw;
 }
 
 img {
   display: flex;
   width: 100%;
-  justify-content: center;
-  justify-self: center;
+  box-shadow: $shadow;
 }

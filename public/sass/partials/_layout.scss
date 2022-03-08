@@ -9,10 +9,10 @@
 
 p {
   display: flex;
+  text-shadow: $shadow;
   justify-content: center;
   justify-self: center;
 }
-
 
 .links {
   color: white;
