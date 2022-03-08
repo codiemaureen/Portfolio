@@ -88,8 +88,18 @@ p {
   margin: 20px;
   padding: 0px 20px 20px; }
 
-.container {
-  background: white; }
+.resume {
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  border: 10px solid black;
+  margin: 80px; }
+
+img {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  justify-self: center; }
 
 .projects {
   display: flex;
