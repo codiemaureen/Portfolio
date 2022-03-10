@@ -2,15 +2,21 @@ mixin project()
             .project
                 .project__header
                     h2 Wedding Site
+                    .gitlink: a(href="https://github.com/codiemaureen/Nicole_Wedding_Page") 
+                        != h.icon('github')
                 .project__image: a(href="https://nicole-wedding.herokuapp.com/")    
                     img(src="/images/nicolewedding.png", alt="projects")
             .project
                 .project__header
                     h2 Grub Review Page
-                .project__image: a(href="https://grub-review-api.herokuapp.com/") 
+                    .gitlink: a(href="https://grub-review-api.herokuapp.com/")
+                        != h.icon('github')
+                .project__image 
                     img(src="/images/grubreview.png", alt="projects")
             .project
                 .project__header
-                    h2 JWT Login 
-                .project__image: a(href="https://login-verify.herokuapp.com/") 
+                    h2 JWT Login
+                    .gitlink: a(href="https://login-verify.herokuapp.com/")
+                        != h.icon('github')
+                .project__image 
                     img(src="/images/JWTlogin.png", alt="projects")
