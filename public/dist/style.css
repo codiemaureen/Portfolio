@@ -117,6 +117,7 @@ img {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5), 5px 15px 20px rgba(0, 0, 0, 0.4); }
 
 .project {
+  box-sizing: inherit;
   justify-content: center;
   justify-self: center;
   flex-direction: column;
