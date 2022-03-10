@@ -11,7 +11,7 @@ exports.staticMap = ([lng, lat]) => `https://maps.googleapis.com/maps/api/static
 exports.icon = (name) => fs.readFileSync(`./public/images/icons/${name}.svg`);
 
 
-exports.siteName = `Portfolio`;
+exports.siteName = `Codie Stover`;
 
 exports.menu = [
   { slug: '/projects', title: 'Projects', icon: 'folder', },
