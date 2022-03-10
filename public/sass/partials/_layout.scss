@@ -16,17 +16,20 @@ body {
   box-shadow: $shadow;
 }
 
+h2 {
+  text-shadow: $shadow;
+}
+
 p {
   display: flex;
-  text-shadow: $shadow;
+  text-shadow: $lightshadow;
   justify-content: center;
   justify-self: center;
 }
 
 .links {
-  color: white;
   display: flex;
   justify-content: center;
   margin: 20px;
-  padding: 0px 20px 20px;
+  padding: 20px;
 }
