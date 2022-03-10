@@ -1,17 +1,12 @@
 /*!******************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/resolve-url-loader/index.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[4]!./public/sass/style.scss ***!
   \******************************************************************************************************************************************************************************************************************************************************************************************/
-body {
-  background: #8ba792;
-  font-size: 36px;
-  margin: 0; }
-
 .wrapper {
   font-size: 50px;
-  text-shadow: 2px 3px #2c3022d7;
+  text-shadow: 2px 3px rgba(44, 48, 34, 0.843);
   color: white;
   text-align: center;
-  height: 50vh;
+  height: 40vh;
   background: url(ccf6001da233f29bcea0.jpg) center center no-repeat;
   background-size: cover;
   display: flex;
@@ -28,13 +23,14 @@ body {
   display: flex;
   flex: auto;
   font-size: 25px;
-  border: 2px solid #181410;
+  border: 1px solid #181410;
   border-radius: 5%;
   justify-content: center;
   align-items: center; }
 
 .logo {
   display: flex;
+  padding-left: 10px;
   justify-content: flex-start;
   flex: auto 4;
   color: white; }
@@ -68,17 +64,25 @@ svg:not(:root) {
   overflow: hidden;
   fill: white; }
 
+body {
+  margin: 0;
+  background: url(fdfba1114e37c78ad6cb.jpg) center bottom no-repeat;
+  display: block;
+  background-size: cover;
+  font-size: 36px; }
+
 .div {
   display: flex;
   justify-content: center;
   justify-self: center;
-  margin: 10px;
+  margin: 50px auto;
+  max-width: 70vw;
   background-color: white;
-  border: 10px solid #241e19; }
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5), 5px 15px 20px rgba(0, 0, 0, 0.4); }
 
 p {
   display: flex;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.1);
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.5), 5px 15px 20px rgba(0, 0, 0, 0.4);
   justify-content: center;
   justify-self: center; }
 
@@ -99,14 +103,15 @@ p {
 img {
   display: flex;
   width: 100%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.1); }
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5), 5px 15px 20px rgba(0, 0, 0, 0.4); }
 
 .projects {
   display: flex;
   justify-content: center;
   justify-self: center;
   margin: 10px;
-  border: 5px solid #241e19; }
+  border: 5px solid #241e19;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5), 5px 15px 20px rgba(0, 0, 0, 0.4); }
 
 .project {
   display: flex;
