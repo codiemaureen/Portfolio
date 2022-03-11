@@ -16,6 +16,8 @@ body {
 }
 
 h2 {
+  display: flex;
+  justify-content: center;
   text-shadow: $shadow;
 }
 
