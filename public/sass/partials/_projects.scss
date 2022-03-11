@@ -1,13 +1,12 @@
 .projects {
   display: flex;
-  flex: wrap;
-  margin: 50px;
+  flex-wrap: wrap;
+  margin: -1.25em 0 0 -1.25em;
 }
 
 .project {
   background: white;
   display: flex;
-  box-sizing: inherit;
   justify-content: center;
   justify-self: center;
   flex-direction: column;

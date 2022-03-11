@@ -4,9 +4,7 @@ exports.homePage = (req, res) => {
     res.render('homepage', {title: 'Codie Maureen'});
 };
 
-exports.projects = async(req, res) => {
-    const project = await Project.find();
-    console.log(project);
+exports.projects = (req, res) => {
     res.render('projects', {title: 'Projects'})
 };
 

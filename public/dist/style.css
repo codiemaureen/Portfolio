@@ -100,6 +100,13 @@ p {
   margin: 20px;
   padding: 20px; }
 
+.inner {
+  max-width: 900px;
+  margin: 0 auto; }
+  @media all and (max-width: 900px) {
+    .inner {
+      padding: 2rem; } }
+
 .resume {
   display: flex;
   justify-content: center;
@@ -114,13 +121,12 @@ img {
 
 .projects {
   display: flex;
-  flex: wrap;
-  margin: 50px; }
+  flex-wrap: wrap;
+  margin: -1.25em 0 0 -1.25em; }
 
 .project {
   background: white;
   display: flex;
-  box-sizing: inherit;
   justify-content: center;
   justify-self: center;
   flex-direction: column;
