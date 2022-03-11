@@ -4,10 +4,13 @@ html(lang="en")
         title= `${h.siteName} || ${title}`
         link(rel="stylesheet", href="/dist/style.css")
         link(rel="shortcut icon" type="image/png" href="/images/icons/plant.svg")
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        link(href="https://fonts.googleapis.com/css2?family=Paprika&display=swap" rel="stylesheet")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
     body 
         .wrapper
-            h2 Codie Stover
+            h2.wraptitle Codie Stover
         .nav_bar 
             li.nav_item.logo: a.nav__link(href="/")
                 span.contact Codiestover.cs@gmail.com

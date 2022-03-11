@@ -1,9 +1,8 @@
 .wrapper {
   font-size: 50px;
-  text-shadow: $shadow;
   color: white;
   text-align: center;
-  height: 40vh;
+  height: 25vh;
   background: url("../../images//pexels-eberhard-grossgasteiger-629162.jpg")
     center center no-repeat;
   background-size: cover;
@@ -12,6 +11,10 @@
   justify-content: center;
 }
 
+.wraptitle {
+  letter-spacing: 5px;
+  text-shadow: $shadow;
+}
 .nav_bar {
   display: flex;
   list-style: none;
