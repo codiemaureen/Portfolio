@@ -1,9 +1,7 @@
 .projects {
   display: flex;
   flex: wrap;
-  margin: -1.25em 0 0 -1.25em;
-  border: 5px solid #241e19;
-  box-shadow: $shadow;
+  margin: 50px;
 }
 
 .project {
@@ -19,9 +17,9 @@
 
 .project__header {
   display: flex;
+  background: white;
   flex-direction: column;
   font-size: 20px;
-  box-shadow: $shadow;
 }
 .gitlink {
   display: flex;
