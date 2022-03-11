@@ -1,8 +1,14 @@
 extends layout 
 
+include mixins/_cert
+
 block content 
-    h2 Resume and Certifications 
+    h2 Resume 
     .resume: a.nav__link(href="/resume/StoverCodie_Resume.docx")
         img(src="/images/StoverCodie_Resume.jpg", alt="resume")
+
+    .inner
+        h2 Certifications 
+        +cert()
 
 

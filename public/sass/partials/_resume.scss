@@ -1,7 +1,9 @@
+body {
+  background-image: url("../../images/background.jpg") center top no-repeat;
+}
+
 .resume {
   display: flex;
-  justify-content: center;
-  justify-self: center;
   margin: auto;
   max-width: 45vw;
 }

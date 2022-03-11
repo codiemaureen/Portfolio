@@ -109,10 +109,11 @@ p {
     .inner {
       padding: 2rem; } }
 
+body {
+  background-image: url(fdfba1114e37c78ad6cb.jpg) center top no-repeat; }
+
 .resume {
   display: flex;
-  justify-content: center;
-  justify-self: center;
   margin: auto;
   max-width: 45vw; }
 
