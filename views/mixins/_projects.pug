@@ -3,21 +3,30 @@ mixin project()
             .project
                 .project__header
                     h2 Wedding Site
-                    .gitlink: a(href="https://github.com/codiemaureen/Nicole_Wedding_Page") 
+                .project__links
+                    .projlink: a(href="https://github.com/codiemaureen/Nicole_Wedding_Page") 
                         != h.icon('github')
+                    .projlink: a(href="https://nicole-wedding.herokuapp.com/") 
+                        != h.icon('laptop')
                 .project__image: a(href="https://nicole-wedding.herokuapp.com/")    
                     img(src="/images/nicolewedding.png", alt="projects")
             .project
                 .project__header
                     h2 Grub Review Page
-                    .gitlink: a(href="https://github.com/codiemaureen/GrubReviewAPI")
+                .project__links
+                    .projlink: a(href="https://github.com/codiemaureen/GrubReviewAPI")
                         != h.icon('github')
+                    .projlink: a(href="https://grub-review-api.herokuapp.com/") 
+                        != h.icon('laptop')
                 .project__image: a(href="https://grub-review-api.herokuapp.com/") 
                     img(src="/images/grubreview.png", alt="projects")
             .project
                 .project__header
                     h2 JWT Login
-                    .gitlink: a(href="https://login-verify.herokuapp.com/")  
+                .project__links
+                    .projlink: a(href="https://login-verify.herokuapp.com/")  
                         != h.icon('github')
+                    .projlink: a(href="https://login-verify.herokuapp.com/") 
+                        != h.icon('laptop')
                 .project__image: a(href="https://login-verify.herokuapp.com/") 
                     img(src="/images/JWTlogin.png", alt="projects")

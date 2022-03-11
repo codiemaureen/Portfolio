@@ -56,7 +56,7 @@ a:active {
 svg {
   width: 25px;
   height: 25px;
-  margin-right: 10px;
+  margin-right: 8px;
   justify-content: center;
   justify-items: center; }
 
@@ -67,6 +67,7 @@ svg:hover {
 svg:not(:root) {
   overflow: hidden;
   fill: white;
+  padding: 1.5px;
   background: rgba(36, 30, 25, 0.24); }
 
 body {
@@ -117,6 +118,7 @@ img {
   margin: 50px; }
 
 .project {
+  background: white;
   display: flex;
   box-sizing: inherit;
   justify-content: center;
@@ -128,14 +130,13 @@ img {
 
 .project__header {
   display: flex;
-  background: white;
-  flex-direction: column;
-  font-size: 20px; }
-
-.gitlink {
-  display: flex;
   justify-content: center;
-  background: none; }
+  background: white;
+  font-size: 15px; }
+
+.project__links {
+  display: flex;
+  margin: auto; }
 
 .project__image {
   justify-content: center;

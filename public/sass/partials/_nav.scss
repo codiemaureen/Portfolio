@@ -62,7 +62,7 @@ a:active {
 svg {
   width: 25px;
   height: 25px;
-  margin-right: 10px;
+  margin-right: 8px;
   justify-content: center;
   justify-items: center;
 }
@@ -73,5 +73,6 @@ svg:hover {
 svg:not(:root) {
   overflow: hidden;
   fill: white;
+  padding: 1.5px;
   background: hsla(27, 18%, 12%, 0.24);
 }
