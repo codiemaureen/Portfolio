@@ -1,20 +1,20 @@
 .projects {
   display: flex;
-  justify-content: center;
-  justify-self: center;
-  margin: 10px;
+  flex: wrap;
+  margin: -1.25em 0 0 -1.25em;
   border: 5px solid #241e19;
   box-shadow: $shadow;
 }
 
 .project {
+  display: flex;
   box-sizing: inherit;
   justify-content: center;
   justify-self: center;
   flex-direction: column;
   box-shadow: $shadow;
-  margin: 20px auto;
-  max-width: 60vw;
+  margin: 1.25em 0 0 1.25em;
+  width: calc(33.3333% - 1.25em);
 }
 
 .project__header {

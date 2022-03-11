@@ -1,8 +1,12 @@
+const Project = require('../models/Projects');
+
 exports.homePage = (req, res) => {
     res.render('homepage', {title: 'Codie Maureen'});
 };
 
-exports.projects = (req, res) => {
+exports.projects = async(req, res) => {
+    const project = await Project.find();
+    console.log(project);
     res.render('projects', {title: 'Projects'})
 };
 
