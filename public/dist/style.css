@@ -25,7 +25,7 @@
 
 .nav_item {
   display: flex;
-  flex: auto;
+  flex: 1 1 auto;
   font-size: 25px;
   border: 1px solid #181410;
   border-radius: 5%;
