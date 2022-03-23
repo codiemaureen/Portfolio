@@ -86,7 +86,9 @@ svg:not(:root) {
       svg {
         width: 30px;
       }
-      &--logo {
+      &.nav_item.logo {
+        padding-left: 1rem;
+        padding-right: 1rem;
         svg {
           width: 100px;
         }
@@ -100,36 +102,35 @@ svg:not(:root) {
     flex-wrap: wrap;
     &.nav_item {
       order: 1;
+      &svg {
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        order: 2;
+        width: 100%;
+      }
     }
   }
 }
 
 @media all and (max-width: 650px) {
   .nav_bar {
-    &__section {
-      width: 100%;
-      &--user {
-        order: -1;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-        svg {
-          display: none;
-        }
-      }
-    }
-    &__item {
-      width: 33.333333%;
-    }
-    &__link {
+    &.nav_item {
       width: 100%;
       svg {
-        // width: 5px;
-        max-width: 100%;
-      }
-      &--logo {
-        svg {
-          width: 100%;
-        }
+        display: none;
       }
     }
   }
-}
+  &.nav_item {
+    width: 33.333333%;
+  }
+  svg {
+    max-width: 100%;
+  }
+  &.nav_item.logo {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    svg {
+      width: 100%;
+    }
+  }
+} ;
