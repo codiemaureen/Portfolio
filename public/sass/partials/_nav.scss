@@ -65,6 +65,7 @@ svg {
   margin-right: 8px;
   justify-content: center;
   justify-items: center;
+  transition: all 0.2s;
 }
 svg:hover {
   color: white;
@@ -75,4 +76,60 @@ svg:not(:root) {
   fill: white;
   padding: 1.5px;
   background: hsla(27, 18%, 12%, 0.24);
+}
+
+@media all and (max-width: 1200px) {
+  .nav_bar {
+    .nav_item {
+      padding-left: 1rem;
+      padding-right: 1rem;
+      svg {
+        width: 30px;
+      }
+      &--logo {
+        svg {
+          width: 100px;
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 900px) {
+  .nav_bar {
+    flex-wrap: wrap;
+    &.nav_item {
+      order: 1;
+    }
+  }
+}
+
+@media all and (max-width: 650px) {
+  .nav_bar {
+    &__section {
+      width: 100%;
+      &--user {
+        order: -1;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        svg {
+          display: none;
+        }
+      }
+    }
+    &__item {
+      width: 33.333333%;
+    }
+    &__link {
+      width: 100%;
+      svg {
+        // width: 5px;
+        max-width: 100%;
+      }
+      &--logo {
+        svg {
+          width: 100%;
+        }
+      }
+    }
+  }
 }
