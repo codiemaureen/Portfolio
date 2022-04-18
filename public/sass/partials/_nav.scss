@@ -2,8 +2,8 @@
   font-size: 50px;
   color: white;
   text-align: center;
-  height: 25vh;
-  background: url("../../images//pexels-eberhard-grossgasteiger-629162.jpg")
+  height: 30vh;
+  background: url("../../images/navbar2.jpg")
     center center no-repeat;
   background-size: cover;
   display: flex;
@@ -19,7 +19,7 @@
   display: flex;
   list-style: none;
   justify-content: flex-end;
-  background-color: #241e19;
+  background-color: black;
   box-shadow: $lightshadow;
 }
 
@@ -100,10 +100,9 @@ svg:not(:root) {
 @media all and (max-width: 900px) {
   .nav_bar {
     flex-wrap: wrap;
-    &.nav_item {
+    &.nav_item.logo {
       order: 1;
       &svg {
-        border-top: 1px solid rgba(255, 255, 255, 0.1);
         order: 2;
         width: 100%;
       }
@@ -127,8 +126,9 @@ svg:not(:root) {
     max-width: 100%;
   }
   &.nav_item.logo {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    width: 100%;
+
+    justify-content: center;
     svg {
       width: 100%;
     }

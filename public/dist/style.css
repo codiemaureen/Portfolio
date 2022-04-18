@@ -5,8 +5,8 @@
   font-size: 50px;
   color: white;
   text-align: center;
-  height: 25vh;
-  background: url(ccf6001da233f29bcea0.jpg) center center no-repeat;
+  height: 30vh;
+  background: url(fe1bf3c44d088bb3ae98.jpg) center center no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -20,7 +20,7 @@
   display: flex;
   list-style: none;
   justify-content: flex-end;
-  background-color: #241e19;
+  background-color: black;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.15); }
 
 .nav_item {
@@ -86,10 +86,9 @@ svg:not(:root) {
 @media all and (max-width: 900px) {
   .nav_bar {
     flex-wrap: wrap; }
-    .nav_bar.nav_item {
+    .nav_bar.nav_item.logo {
       order: 1; }
-      .nav_bar.nav_itemsvg {
-        border-top: 1px solid rgba(255, 255, 255, 0.1);
+      .nav_bar.nav_item.logosvg {
         order: 2;
         width: 100%; } }
 
@@ -103,14 +102,14 @@ svg:not(:root) {
   svg {
     max-width: 100%; }
   .nav_item.logo {
-    padding-left: 1rem;
-    padding-right: 1rem; }
+    width: 100%;
+    justify-content: center; }
     .nav_item.logo svg {
       width: 100%; } }
 
 body {
   margin: 0;
-  background: url(fdfba1114e37c78ad6cb.jpg) center bottom no-repeat;
+  background: white;
   display: block;
   background-size: cover;
   font-size: 36px; }
